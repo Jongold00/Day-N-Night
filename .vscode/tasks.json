@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "DayNnight Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Debug",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Debug",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnight Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Debug",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnight Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Development",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Development",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnight Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Development",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Test",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Test",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnight Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Test",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnight Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnight Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnight",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnightEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnightEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DayNnightEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "DayNnightEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DayNnightEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\pynju\\Documents\\GitHub\\Day-N-Night\\DayNnight.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
