@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A11C27E8-D05F-4EF2-B35B-447E5EF8443E}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A11C27E8-D05F-4EF2-B35B-447E5EF8443E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Steps" ID="{FD0F3F75-0BEC-432A-B4C0-CAC3DFE86DE9}" ShortID="621881874">
+					<ChildrenList>
+						<Event Name="Sand" ID="{0DD008EA-3BA8-47D6-A0A4-99A1141EC480}">
+							<ChildrenList>
+								<Action Name="" ID="{3CF150A0-F724-4CFB-A255-3C232FFDB29D}" ShortID="661689797">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Step_Sand" ID="{792D32CF-3363-4A71-8069-A584F1145367}" WorkUnitID="{E2FCB0D4-A0B1-473B-89DA-750158F77469}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

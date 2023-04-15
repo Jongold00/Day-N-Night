@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E2FCB0D4-A0B1-473B-89DA-750158F77469}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E2FCB0D4-A0B1-473B-89DA-750158F77469}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Step_Sand" ID="{792D32CF-3363-4A71-8069-A584F1145367}" ShortID="729654099">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE57FB67-BA54-4A34-9A03-8B193711773E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86902FCC-DBB1-4638-B360-563A42BB718E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="96 Footsteps, Sand, Wet Male Barefoot" ID="{C5DC7AA2-B67C-4991-A15D-9A0AE46D82B3}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="48.2284713134221"/>
+								<Property Name="TrimEnd" Type="Real64" Value="49.7476436700882"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>96 Footsteps, Sand, Wet Male Barefoot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="546311570"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="96 Footsteps, Sand, Wet Male Barefoot" ID="{C5DC7AA2-B67C-4991-A15D-9A0AE46D82B3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
