@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1605876511",
+    "Type": "User",
+    "GUID": "{D3CCDFA5-E044-4F7C-9A09-7D6DC4A576F6}",
+    "Language": "SFX",
+    "Hash": "{7A95ECFF-10FE-0785-FDED-39A6C3174B6C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_Bank",
+    "ShortName": "SFX_Bank",
+    "Path": "SFX_Bank.bnk",
+    "Media": [
+     {
+      "Id": "781341890",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "95 Footsteps, Sand, Dry Female Barefoot.wav",
+      "CachePath": "SFX/95 Footsteps, Sand, Dry Female Barefoot_806427D4.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4226502422",
+      "Name": "Sand_Female",
+      "ObjectPath": "\\Events\\Default Work Unit\\Steps\\Sand Steps\\Sand_Female",
+      "GUID": "{5B139711-2095-4D0F-B902-3D56E49A739E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.381573",
+      "DurationMax": "1.381573",
+      "MediaRefs": [
+       {
+        "Id": "781341890"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{94F49E2B-28A3-C32D-34CE-17F3D18C3B23}"
+ }
+}

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{4315E719-8A43-4ECD-8E6A-A1887B82481B}" SchemaVersion="110">
 	<ControlSurfaceSessions>
 		<WorkUnit Name="Default Work Unit" ID="{4315E719-8A43-4ECD-8E6A-A1887B82481B}" PersistMode="Standalone">
@@ -7,11 +8,25 @@
 					<ChildrenList>
 						<ControlSurfaceBindingGroup Name="Global" ID="{AF9A497F-6B72-4AD0-932C-11B862240FE6}"/>
 						<ControlSurfaceBindingGroup Name="Current Selection" ID="{26AA057F-2D77-44B0-9749-4B741BBF14FC}">
+=======
+<WwiseDocument Type="WorkUnit" ID="{F9911C42-717B-44A0-B6E9-6F904F185A28}" SchemaVersion="110">
+	<ControlSurfaceSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F9911C42-717B-44A0-B6E9-6F904F185A28}" PersistMode="Standalone">
+			<ChildrenList>
+				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
+					<ChildrenList>
+						<ControlSurfaceBindingGroup Name="Global" ID="{B839B09A-F01A-44A4-B8B7-A5F80CFE538C}"/>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{B094A067-814F-449E-94A4-278D5B2FE743}">
+>>>>>>> Stashed changes
 							<PropertyList>
 								<Property Name="GroupType" Type="int16" Value="4"/>
 							</PropertyList>
 							<ChildrenList>
+<<<<<<< Updated upstream
 								<ControlSurfaceBinding Name="Binding" ID="{4068609E-42B1-4B0C-8FC2-293613999B76}">
+=======
+								<ControlSurfaceBinding Name="Binding" ID="{0CC21CF1-A0B1-40EC-956B-0CDBDAA8115A}">
+>>>>>>> Stashed changes
 									<PropertyList>
 										<Property Name="TargetName" Type="string" Value="PassMidiNote"/>
 										<Property Name="TargetType" Type="int16" Value="1"/>
@@ -19,7 +34,11 @@
 								</ControlSurfaceBinding>
 							</ChildrenList>
 						</ControlSurfaceBindingGroup>
+<<<<<<< Updated upstream
 						<ControlSurfaceBindingGroup Name="View Groups" ID="{4EB4A7A7-FB76-4A87-B99C-9CA674187428}">
+=======
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{A4CFBB3B-E52C-405A-8B21-6FF51C16C819}">
+>>>>>>> Stashed changes
 							<PropertyList>
 								<Property Name="GroupType" Type="int16" Value="3"/>
 							</PropertyList>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{F4F40F90-E75A-478E-AF64-8CC6750BDD34}" SchemaVersion="110">
 	<Metadatas>
 		<WorkUnit Name="Default Work Unit" ID="{F4F40F90-E75A-478E-AF64-8CC6750BDD34}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{167A10C1-B919-41AE-9021-AFA0664286A6}" SchemaVersion="110">
+	<Metadatas>
+		<WorkUnit Name="Default Work Unit" ID="{167A10C1-B919-41AE-9021-AFA0664286A6}" PersistMode="Standalone"/>
+>>>>>>> Stashed changes
 	</Metadatas>
 </WwiseDocument>

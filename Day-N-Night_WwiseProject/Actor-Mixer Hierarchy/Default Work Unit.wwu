@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{E2FCB0D4-A0B1-473B-89DA-750158F77469}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{E2FCB0D4-A0B1-473B-89DA-750158F77469}" PersistMode="Standalone">
@@ -30,6 +31,43 @@
 						<ActiveSource Name="96 Footsteps, Sand, Wet Male Barefoot" ID="{C5DC7AA2-B67C-4991-A15D-9A0AE46D82B3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+=======
+<WwiseDocument Type="WorkUnit" ID="{6C933D31-6F34-4E38-9A8D-BE0894AF5C30}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{6C933D31-6F34-4E38-9A8D-BE0894AF5C30}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Steps" ID="{C98F5DA2-B4D7-4519-933C-6CCFAD48E0AB}" ShortID="803730784">
+					<ChildrenList>
+						<Sound Name="Step Sand Female" ID="{EFB9D383-8030-46FB-B7BB-38126DF420F9}" ShortID="743285254">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5C48406D-8224-4208-B23C-5128A0918C74}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39B02EEA-4C46-4964-B504-95B5258D27EE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="95 Footsteps, Sand, Dry Female Barefoot" ID="{7E04BDB7-159B-4FBC-B7C2-37937AD95D78}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="56.7117072825439"/>
+										<Property Name="TrimEnd" Type="Real64" Value="58.0932802845162"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>95 Footsteps, Sand, Dry Female Barefoot.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="781341890"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="95 Footsteps, Sand, Dry Female Barefoot" ID="{7E04BDB7-159B-4FBC-B7C2-37937AD95D78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+>>>>>>> Stashed changes
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -14,6 +14,7 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+<<<<<<< Updated upstream
     "Id": "555449325",
     "Type": "User",
     "GUID": "{481B8783-C591-4224-B4B8-C14962D0F79E}",
@@ -24,6 +25,8 @@
     "Path": "Step_Soundbank.bnk"
    },
    {
+=======
+>>>>>>> Stashed changes
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
@@ -38,7 +41,11 @@
        "Id": "2317455096",
        "Name": "No_Output",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+<<<<<<< Updated upstream
        "GUID": "{753711B7-AFC9-4BCD-98D6-3067E583CC53}",
+=======
+       "GUID": "{0D950DDB-07BD-42FB-8CD9-F6C47A1AFDA9}",
+>>>>>>> Stashed changes
        "LibName": "No Output",
        "LibId": "11862023"
       },
@@ -46,7 +53,11 @@
        "Id": "3859886410",
        "Name": "System",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+<<<<<<< Updated upstream
        "GUID": "{E3E09F4F-1068-48B7-B0F5-40A684E22186}",
+=======
+       "GUID": "{20EF8CF6-2434-423B-AA33-745741351E9F}",
+>>>>>>> Stashed changes
        "LibName": "System",
        "LibId": "11403271"
       }
@@ -60,8 +71,105 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ]
+<<<<<<< Updated upstream
    }
   ],
   "FileHash": "{4C986F1F-6285-9F49-BB6E-A82BF8A4C368}"
+=======
+   },
+   {
+    "Id": "1546231383",
+    "Type": "User",
+    "GUID": "{FA9643EA-05A4-420F-B71C-CA1A27496792}",
+    "Language": "SFX",
+    "Hash": "{41E6D8C9-2264-2323-50B1-428F352B9496}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music_Bank",
+    "ShortName": "Music_Bank",
+    "Path": "Music_Bank.bnk",
+    "Media": [
+     {
+      "Id": "566676281",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DnN_Menu_Combined_Intro.wav",
+      "CachePath": "SFX/DnN_Menu_Combined_Intro_D79FB2B7.wem"
+     },
+     {
+      "Id": "676160179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DnN_Menu_Combined.wav",
+      "CachePath": "SFX/DnN_Menu_Combined_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1278378707",
+      "Name": "Play_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Menu",
+      "GUID": "{56C06BBF-13D7-4111-9D5C-FA5D1346C9B9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "566676281"
+       },
+       {
+        "Id": "676160179"
+       }
+      ]
+     },
+     {
+      "Id": "2914981333",
+      "Name": "Stop_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Menu",
+      "GUID": "{F00E56D9-EDFE-47CB-902E-8969C1385530}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
+    "Id": "1605876511",
+    "Type": "User",
+    "GUID": "{D3CCDFA5-E044-4F7C-9A09-7D6DC4A576F6}",
+    "Language": "SFX",
+    "Hash": "{7A95ECFF-10FE-0785-FDED-39A6C3174B6C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_Bank",
+    "ShortName": "SFX_Bank",
+    "Path": "SFX_Bank.bnk",
+    "Media": [
+     {
+      "Id": "781341890",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "95 Footsteps, Sand, Dry Female Barefoot.wav",
+      "CachePath": "SFX/95 Footsteps, Sand, Dry Female Barefoot_806427D4.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4226502422",
+      "Name": "Sand_Female",
+      "ObjectPath": "\\Events\\Default Work Unit\\Steps\\Sand Steps\\Sand_Female",
+      "GUID": "{5B139711-2095-4D0F-B902-3D56E49A739E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.381573",
+      "DurationMax": "1.381573",
+      "MediaRefs": [
+       {
+        "Id": "781341890"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8737AAED-4826-3647-2DA3-9C3189C37D24}"
+>>>>>>> Stashed changes
  }
 }

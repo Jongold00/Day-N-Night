@@ -7,8 +7,13 @@
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<AudioDevices>
+<<<<<<< Updated upstream
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{753711B7-AFC9-4BCD-98D6-3067E583CC53}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{E3E09F4F-1068-48B7-B0F5-40A684E22186}" LibName="System" LibId="11403271"/>
+=======
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{0D950DDB-07BD-42FB-8CD9-F6C47A1AFDA9}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{20EF8CF6-2434-423B-AA33-745741351E9F}" LibName="System" LibId="11403271"/>
+>>>>>>> Stashed changes
 				</AudioDevices>
 			</Plugins>
 			<Busses>
@@ -16,5 +21,9 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< Updated upstream
 	<FileHash>{9EB55D19-88D1-384D-C3E3-11CA25CEF0A7}</FileHash>
+=======
+	<FileHash>{6C35EED8-020D-03E3-91E5-2B40429DFAE6}</FileHash>
+>>>>>>> Stashed changes
 </SoundBanksInfo>

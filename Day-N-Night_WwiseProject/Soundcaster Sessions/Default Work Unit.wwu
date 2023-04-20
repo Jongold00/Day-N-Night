@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{ECB265C4-CC79-4A5B-A1E6-87E2BD3B1E1B}" SchemaVersion="110">
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{ECB265C4-CC79-4A5B-A1E6-87E2BD3B1E1B}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{95C6EE4F-25E9-4ED4-BEF2-BCC63A13AB0E}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{95C6EE4F-25E9-4ED4-BEF2-BCC63A13AB0E}" PersistMode="Standalone"/>
+>>>>>>> Stashed changes
 	</SoundcasterSessions>
 </WwiseDocument>

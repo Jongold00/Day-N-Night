@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{86902FCC-DBB1-4638-B360-563A42BB718E}" SchemaVersion="110">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{86902FCC-DBB1-4638-B360-563A42BB718E}" PersistMode="Standalone">
+=======
+<WwiseDocument Type="WorkUnit" ID="{39B02EEA-4C46-4964-B504-95B5258D27EE}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{39B02EEA-4C46-4964-B504-95B5258D27EE}" PersistMode="Standalone">
+>>>>>>> Stashed changes
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+<<<<<<< Updated upstream
 							<ObjectRef Name="System" ID="{E3E09F4F-1068-48B7-B0F5-40A684E22186}" WorkUnitID="{F63DE41F-2F48-44FC-9F69-EA6E916D620D}"/>
+=======
+							<ObjectRef Name="System" ID="{20EF8CF6-2434-423B-AA33-745741351E9F}" WorkUnitID="{96A1B04B-DD4B-4808-A111-99A96683EACA}"/>
+>>>>>>> Stashed changes
 						</Reference>
 					</ReferenceList>
 				</Bus>

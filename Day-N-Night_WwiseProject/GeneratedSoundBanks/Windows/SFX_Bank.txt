@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4226502422	Sand_Female			\Default Work Unit\Steps\Sand Steps\Sand_Female	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	781341890	Step Sand Female	C:\Users\Ben\Documents\GitHub\Day-N-Night\Day-N-Night_WwiseProject\.cache\Windows\SFX\95 Footsteps, Sand, Dry Female Barefoot_806427D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Step Sand Female		243808
+
