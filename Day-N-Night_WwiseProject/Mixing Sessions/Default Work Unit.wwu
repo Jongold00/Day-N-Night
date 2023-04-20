@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{41187518-8E13-42DE-857B-5EF90B6C0780}" SchemaVersion="110">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{41187518-8E13-42DE-857B-5EF90B6C0780}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{3F2CF42E-BBFC-48C9-9402-598F10D6AF4E}" SchemaVersion="110">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{3F2CF42E-BBFC-48C9-9402-598F10D6AF4E}" PersistMode="Standalone"/>
+>>>>>>> Stashed changes
+	</MixingSessions>
+</WwiseDocument>

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1278378707	Play_Menu			\Default Work Unit\Music\Play_Menu	
+	2914981333	Stop_Menu			\Default Work Unit\Music\Stop_Menu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	566676281	DnN_Menu_Combined_Intro	C:\Users\Ben\Documents\GitHub\Day-N-Night\Day-N-Night_WwiseProject\.cache\Mac\SFX\DnN_Menu_Combined_Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu Intro\DnN_Menu_Combined_Intro		869528
+	676160179	DnN_Menu_Combined	C:\Users\Ben\Documents\GitHub\Day-N-Night\Day-N-Night_WwiseProject\.cache\Mac\SFX\DnN_Menu_Combined_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\DnN_Menu_Combined		17388776
+

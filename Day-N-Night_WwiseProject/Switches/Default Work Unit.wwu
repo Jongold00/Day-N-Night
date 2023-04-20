@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{06F8D60D-3BDB-4588-A6E5-2E38F0223DBC}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{06F8D60D-3BDB-4588-A6E5-2E38F0223DBC}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{77237C63-D6BC-4ED1-83F3-42442E25C694}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{77237C63-D6BC-4ED1-83F3-42442E25C694}" PersistMode="Standalone"/>
+>>>>>>> Stashed changes
+	</Switches>
+</WwiseDocument>

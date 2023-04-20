@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1605876511" Type="User" GUID="{D3CCDFA5-E044-4F7C-9A09-7D6DC4A576F6}" Language="SFX" Hash="{7A95ECFF-10FE-0785-FDED-39A6C3174B6C}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX_Bank</ObjectPath>
+			<ShortName>SFX_Bank</ShortName>
+			<Path>SFX_Bank.bnk</Path>
+			<Media>
+				<File Id="781341890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>95 Footsteps, Sand, Dry Female Barefoot.wav</ShortName>
+					<CachePath>SFX/95 Footsteps, Sand, Dry Female Barefoot_806427D4.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4226502422" Name="Sand_Female" ObjectPath="\Events\Default Work Unit\Steps\Sand Steps\Sand_Female" GUID="{5B139711-2095-4D0F-B902-3D56E49A739E}" DurationType="OneShot" DurationMin="1.381573" DurationMax="1.381573">
+					<MediaRefs>
+						<MediaRef Id="781341890"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0321191D-6C4A-6A49-B12F-C9C9C387E732}</FileHash>
+</SoundBanksInfo>
