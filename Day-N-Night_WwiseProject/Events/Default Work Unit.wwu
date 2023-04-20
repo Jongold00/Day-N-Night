@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{A11C27E8-D05F-4EF2-B35B-447E5EF8443E}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A11C27E8-D05F-4EF2-B35B-447E5EF8443E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Steps" ID="{FD0F3F75-0BEC-432A-B4C0-CAC3DFE86DE9}" ShortID="621881874">
+					<ChildrenList>
+						<Event Name="Sand" ID="{0DD008EA-3BA8-47D6-A0A4-99A1141EC480}">
+							<ChildrenList>
+								<Action Name="" ID="{3CF150A0-F724-4CFB-A255-3C232FFDB29D}" ShortID="661689797">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Step_Sand" ID="{792D32CF-3363-4A71-8069-A584F1145367}" WorkUnitID="{E2FCB0D4-A0B1-473B-89DA-750158F77469}"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{1B04B2D3-C6C7-4B5B-9858-3854E8649389}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1B04B2D3-C6C7-4B5B-9858-3854E8649389}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Steps" ID="{B6FAB09E-D120-46AD-9C51-EDB71E3634AD}" ShortID="298592812">
+					<ChildrenList>
+						<Folder Name="Sand Steps" ID="{AB68A729-2780-48A8-A005-85FBA0E344FC}" ShortID="440421888">
+							<ChildrenList>
+								<Event Name="Sand_Female" ID="{5B139711-2095-4D0F-B902-3D56E49A739E}">
+									<ChildrenList>
+										<Action Name="" ID="{4E070D52-FEDC-455B-A966-E77A608664CD}" ShortID="482026839">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Step Sand Female" ID="{EFB9D383-8030-46FB-B7BB-38126DF420F9}" WorkUnitID="{6C933D31-6F34-4E38-9A8D-BE0894AF5C30}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{A8641194-BBF3-4743-BE96-E9C9D454FE98}" ShortID="766222274">
+					<ChildrenList>
+						<Event Name="Play_Menu" ID="{56C06BBF-13D7-4111-9D5C-FA5D1346C9B9}">
+							<ChildrenList>
+								<Action Name="" ID="{5D7FA90B-9B53-4E05-8ACF-67CCFECEB3D9}" ShortID="680431579">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{C6826300-5696-466C-AC9F-04D83DF3A946}" WorkUnitID="{4A765DE0-5063-4B24-AD06-A62FAC89C271}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Menu" ID="{F00E56D9-EDFE-47CB-902E-8969C1385530}">
+							<ChildrenList>
+								<Action Name="" ID="{18F86A90-0DDE-4C9D-82E5-0C5351199F42}" ShortID="255854171">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{C6826300-5696-466C-AC9F-04D83DF3A946}" WorkUnitID="{4A765DE0-5063-4B24-AD06-A62FAC89C271}"/>
+>>>>>>> Stashed changes
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

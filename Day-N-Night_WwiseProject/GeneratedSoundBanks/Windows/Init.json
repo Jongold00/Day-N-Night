@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+<<<<<<< Updated upstream
+       "GUID": "{753711B7-AFC9-4BCD-98D6-3067E583CC53}",
+=======
+       "GUID": "{0D950DDB-07BD-42FB-8CD9-F6C47A1AFDA9}",
+>>>>>>> Stashed changes
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+<<<<<<< Updated upstream
+       "GUID": "{E3E09F4F-1068-48B7-B0F5-40A684E22186}",
+=======
+       "GUID": "{20EF8CF6-2434-423B-AA33-745741351E9F}",
+>>>>>>> Stashed changes
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   }
+  ],
+<<<<<<< Updated upstream
+  "FileHash": "{1CB5435C-4D11-B8CD-D2C2-CFF7070E7B31}"
+=======
+  "FileHash": "{5BF1E3A5-10D4-0CC3-A134-EE279903711B}"
+>>>>>>> Stashed changes
+ }
+}

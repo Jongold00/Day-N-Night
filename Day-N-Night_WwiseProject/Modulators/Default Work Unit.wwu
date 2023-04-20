@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{8FEDBE4A-8CC4-4A46-820C-72C54D407FD9}" SchemaVersion="110">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{8FEDBE4A-8CC4-4A46-820C-72C54D407FD9}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{AE4D0594-6983-447D-B117-B01B33BB7B9D}" SchemaVersion="110">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{AE4D0594-6983-447D-B117-B01B33BB7B9D}" PersistMode="Standalone"/>
+>>>>>>> Stashed changes
+	</Modulators>
+</WwiseDocument>

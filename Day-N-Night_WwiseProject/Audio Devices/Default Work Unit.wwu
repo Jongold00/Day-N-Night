@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{F63DE41F-2F48-44FC-9F69-EA6E916D620D}" SchemaVersion="110">
+	<AudioDevices>
+		<WorkUnit Name="Default Work Unit" ID="{F63DE41F-2F48-44FC-9F69-EA6E916D620D}" PersistMode="Standalone">
+			<ChildrenList>
+				<AudioDevice Name="System" ID="{E3E09F4F-1068-48B7-B0F5-40A684E22186}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="No_Output" ID="{753711B7-AFC9-4BCD-98D6-3067E583CC53}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{96A1B04B-DD4B-4808-A111-99A96683EACA}" SchemaVersion="110">
+	<AudioDevices>
+		<WorkUnit Name="Default Work Unit" ID="{96A1B04B-DD4B-4808-A111-99A96683EACA}" PersistMode="Standalone">
+			<ChildrenList>
+				<AudioDevice Name="System" ID="{20EF8CF6-2434-423B-AA33-745741351E9F}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="No_Output" ID="{0D950DDB-07BD-42FB-8CD9-F6C47A1AFDA9}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+>>>>>>> Stashed changes
+			</ChildrenList>
+		</WorkUnit>
+	</AudioDevices>
+</WwiseDocument>

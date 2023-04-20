@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{64402F90-4A43-4ACD-A973-F6B66A8DDE05}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{64402F90-4A43-4ACD-A973-F6B66A8DDE05}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Step_Soundbank" ID="{481B8783-C591-4224-B4B8-C14962D0F79E}">
+					<ObjectInclusionList/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{0FFE7E7D-FCEB-45E0-995F-380CA81D898E}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0FFE7E7D-FCEB-45E0-995F-380CA81D898E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX_Bank" ID="{D3CCDFA5-E044-4F7C-9A09-7D6DC4A576F6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Sand_Female" ID="{5B139711-2095-4D0F-B902-3D56E49A739E}" WorkUnitID="{1B04B2D3-C6C7-4B5B-9858-3854E8649389}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_Bank" ID="{FA9643EA-05A4-420F-B71C-CA1A27496792}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Menu" ID="{56C06BBF-13D7-4111-9D5C-FA5D1346C9B9}" WorkUnitID="{1B04B2D3-C6C7-4B5B-9858-3854E8649389}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Menu" ID="{F00E56D9-EDFE-47CB-902E-8969C1385530}" WorkUnitID="{1B04B2D3-C6C7-4B5B-9858-3854E8649389}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+>>>>>>> Stashed changes
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

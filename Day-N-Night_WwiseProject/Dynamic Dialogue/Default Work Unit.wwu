@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{4567DCB5-E2A1-45FD-B4A9-F08CDE7DB99E}" SchemaVersion="110">
+	<DynamicDialogue>
+		<WorkUnit Name="Default Work Unit" ID="{4567DCB5-E2A1-45FD-B4A9-F08CDE7DB99E}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{82C478EE-139C-4C98-B1A8-7D4701D6DB77}" SchemaVersion="110">
+	<DynamicDialogue>
+		<WorkUnit Name="Default Work Unit" ID="{82C478EE-139C-4C98-B1A8-7D4701D6DB77}" PersistMode="Standalone"/>
+>>>>>>> Stashed changes
+	</DynamicDialogue>
+</WwiseDocument>

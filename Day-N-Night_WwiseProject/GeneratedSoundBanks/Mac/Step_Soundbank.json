@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "555449325",
+    "Type": "User",
+    "GUID": "{481B8783-C591-4224-B4B8-C14962D0F79E}",
+    "Language": "SFX",
+    "Hash": "{581C4701-FF9C-F7C9-F744-F0BA8BCF4368}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Step_Soundbank",
+    "ShortName": "Step_Soundbank",
+    "Path": "Step_Soundbank.bnk"
+   }
+  ],
+  "FileHash": "{B9C3B9AA-AA8A-863C-D011-FDEBC738BC35}"
+ }
+}

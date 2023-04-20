@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1546231383" Type="User" GUID="{FA9643EA-05A4-420F-B71C-CA1A27496792}" Language="SFX" Hash="{41E6D8C9-2264-2323-50B1-428F352B9496}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
+			<ShortName>Music_Bank</ShortName>
+			<Path>Music_Bank.bnk</Path>
+			<Media>
+				<File Id="566676281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DnN_Menu_Combined_Intro.wav</ShortName>
+					<CachePath>SFX/DnN_Menu_Combined_Intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="676160179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DnN_Menu_Combined.wav</ShortName>
+					<CachePath>SFX/DnN_Menu_Combined_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1278378707" Name="Play_Menu" ObjectPath="\Events\Default Work Unit\Music\Play_Menu" GUID="{56C06BBF-13D7-4111-9D5C-FA5D1346C9B9}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="566676281"/>
+						<MediaRef Id="676160179"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2914981333" Name="Stop_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Menu" GUID="{F00E56D9-EDFE-47CB-902E-8969C1385530}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8DFCCB7A-C8B4-6BE7-789D-62A08839A34B}</FileHash>
+</SoundBanksInfo>
